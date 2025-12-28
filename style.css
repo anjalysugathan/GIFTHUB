@@ -9,7 +9,7 @@
         background:lab(75.99% 2.11 0.74);
     }
     .header{
-        background-color: rgb(127, 137, 134);
+        background-color: hwb(160 92% 6%);
         display: flex;
         padding: 15px 15px;
         justify-content:space-between;
@@ -40,7 +40,7 @@
     font-size: 25px;
    }
    .content{
-    background-color:  rgb(127, 137, 134);;
+    background-color:  hsl(163, 37%, 96%);;
     padding: 5px 5px;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
 
    }
    .logo img{
-    width: 150px;
+    width: 200px;
     height: auto;
    }
    .nav
@@ -83,20 +83,25 @@
     color: brown;
     font-size: 25px;
    }
-   .sign_btn{
-    background-color: rgb(103, 103, 182);
-    color: white;
-    border: none;
-    font-size: 55px;
-    padding: 5px 5px;
-    border-radius: 10px;
-    cursor: pointer;
+   .sign_btn
+   {
+  background-color: rgb(81, 116, 173);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
    }
-   .sign_btn{
+   .sign_btn:hover
+   {
     transition:2S;
-    color: rgb(245, 238, 238);
-    background-color: rgb(13, 12, 12);
-    font-size: 20px;
+    color: rgb(8, 6, 6);
+    background-color: rgb(63, 94, 94);
+    font-size: 30px;
    }
 
    
