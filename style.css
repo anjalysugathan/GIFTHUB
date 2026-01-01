@@ -1,197 +1,235 @@
-*{
-    margin :0;
-    padding :0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-    body
-    {
-        background:lab(94.32% 1.01 0.34);
-    }
-    .header{
-        background-color: hwb(160 92% 6%);
-        display: flex;
-        padding: 15px 15px;
-        justify-content:space-between;
-        align-items: center;
-        gap: 25px;
-    }
-    .navbar{
-        
-        display:flex;
-        text-decoration: none;
-        justify-content:space-between;
-        gap: 30px;
-        margin-right: 20px;
-        font-weight: bold;
-    }
-   .nav_links 
-   {
-        color: black;
-        text-decoration: none; 
-         gap: 30px;
-        margin-right: 20px;
-        font-weight: bold;
-        font-size: 20px;
-   }
-   .nav_links:hover
-   {
-    color:rgb(138, 76, 76);
-    font-size: 25px;
-   }
-   .content{
-    background-color:  hsl(163, 37%, 96%);;
-    padding: 5px 5px;
-    display: flex;
-    align-items: center;
-    
-    justify-content:space-between;
+
+body {
+  background: lab(94.32% 1.01 0.34);
+}
+
+.header {
+  background-color: hwb(160 92% 6%);
+  display: flex;
+  padding: 15px 15px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar {
+
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  gap: 30px;
+  
+  font-weight: bold;
+  
+}
+p.textbox{
+  border: 2px solid rgb(4, 4, 4);
+  border-radius: 12px;
+  padding: 5px 5px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.nav_links {
+  color: black;
+  text-decoration: none;
+  gap: 30px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav_links:hover {
+  color: rgb(138, 76, 76);
+  font-size: 25px;
+}
+
+.content {
+  background-color: hsl(163, 37%, 96%);
+  ;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
 
 
-   }
-   .logo{
-    width: 200px;
-     display: flex;
+}
 
-   }
-   .logo img{
-    width: 200px;
-    height: auto;
-   }
-   .nav
-   {
-    display: flex;
-    
-    color: black;
-     text-decoration: none; 
-     gap: 30px;
-    margin-right: 20px;
-    font-size: 20px;
-    font-weight: bold;;
-   }
-   .nav_links1 
-   {
-   
-    color: black;
-     text-decoration: none; 
-     gap: 30px;
-    margin-right: 20px;
-    font-size: 20px;
-   }
-   .nav_links1:hover
-   {
-    color: brown;
-    font-size: 25px;
-   }
-   .sign_btn 
-   {
-   background: rgb(224, 46, 46);
-        color:#fff;
-        border:none;
-        padding:5px 5px;
-        font-size:1rem;
-        border-radius:8px;
-        cursor:pointer;
-        transition:1s;
-    }
-    .sign_btn:hover
-    {
-        background:rgb(157, 79, 135);
-   }
-   .bckgnd_image
-   {
-    width:1800px;
-   
-   }
-   .bckgnd_image img
-   {
-     width:1450px;
-     height: 800px;;
-    
-   }
-   .related-section h2{
-        margin-bottom:30px;
-        font-size:2rem;
-        text-align: center ;
-    }
-    .related-products{
-        display: flex;
-         gap:20px;
-         text-align: center;
-    }
-    
-    
-    .birthday img
-    {
-        width: 250px;
-        height: 250px;
-        margin-bottom: 10px;
-        gap: 20px;
-        text-align: center;
-        border-radius: 10px;
-    }
-    .birthday:hover{
-        transform: translateY(-5px);
-    }
-   .couple img
-   {
-        width: 250px;
-        height: 250px;
-        margin-bottom: 10px;
-        gap:10px;
-         border-radius: 10px;
-   }
-   .couple:hover
-   {
-     transform: translateY(-5px);
-   }
-   .anniversary img
-   {
-        width: 250px;
-        height: 250px;
-        margin-bottom: 10px;
-        gap: 15px;
-         border-radius: 10px;
-   }
-   .anniversary:hover{
-     transform: translateY(-5px);
-   }
-   .her img
-   {
-        width: 250px;
-        height: 250px;
-        margin-bottom: 10px;
-        gap: 15px;
-         border-radius: 10px;
-   }
-   .her:hover{
-     transform: translateY(-5px);
-   }
-   .him img
-   {
-         width: 250px;
-        height: 250px;
-        margin-bottom: 10px;
-        gap: 15px;
-         border-radius: 10px;
-   }
-   .him:hover{
-     transform: translateY(-5px);
-   }
-   .thanks img
-   {
-        width: 250px;
-        height: 250px;
-        margin-bottom: 10px;
-        gap: 15px;
-         border-radius: 10px;
-   }
-   .thanks:hover{
-     transform: translateY(-5px);
-   }
-footer{
-    background-color: hwb(160 70% 29%);
-    padding:20px 20px;
-    text-align: center;
-    margin-top: 10px;
+.logo {
+  width: 200px;
+  display: flex;
+
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+
+  color: black;
+  text-decoration: none;
+  gap: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  ;
+}
+
+.nav_links1 {
+
+  color: black;
+  text-decoration: none;
+  gap: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.nav_links1:hover {
+  color: brown;
+  font-size: 25px;
+}
+
+.sign_btn {
+  background: rgb(224, 46, 46);
+  color: #fff;
+  border: none;
+  padding: 5px 5px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.sign_btn:hover {
+  background: rgb(157, 79, 135);
+}
+
+.bckgnd_image {
+  width: 1800px;
+
+}
+
+.bckgnd_image img {
+  width: 1450px;
+  height: 500px;
+  ;
+
+}
+.centered {
+  position: absolute;
+  color: lab(51.71% -0.03 56.43);
+  
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-inline: 50px;
+  font-style: italic;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.related-section h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.related-products {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+
+.birthday img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  gap: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.birthday:hover {
+  transform: translateY(-5px);
+}
+
+.couple img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.couple:hover {
+  transform: translateY(-5px);
+}
+
+.anniversary img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.anniversary:hover {
+  transform: translateY(-5px);
+}
+
+.her img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.her:hover {
+  transform: translateY(-5px);
+}
+
+.him img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.him:hover {
+  transform: translateY(-5px);
+}
+
+.thanks img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.thanks:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color: hwb(160 70% 29%);
+  padding: 20px 20px;
+  text-align: center;
+  margin-top: 10px;
 }
